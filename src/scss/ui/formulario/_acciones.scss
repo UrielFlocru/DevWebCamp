@@ -13,6 +13,11 @@
     font-size: 1.6rem;
     text-align: center;
 
+    &--centrar{
+        @extend .acciones;
+        justify-content: center;
+    }
+
     &__enlace{
         color: v.$azul;
         
